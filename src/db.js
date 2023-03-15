@@ -11,7 +11,7 @@ const {
 //   native: false, // lets Sequelize know we can use pg-native for ~30% more speed
 // });
 
-const sequelize = new Sequelize(`postgres://pokedb:ernBEGmXoiDNMy51GxJrSq4148Uajmpn@dpg-cg8h6h64dad531s3ku40-a.oregon-postgres.render.com/pokemon_e54v`, {
+const sequelize = new Sequelize(`postgres://Davidvn95:LBxftUO3Fh4R@ep-billowing-sunset-127042.us-east-2.aws.neon.tech/neondb`, {
   logging: false, // set to console.log to see the raw SQL queries
   native: false, // lets Sequelize know we can use pg-native for ~30% more speed
 });
